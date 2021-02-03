@@ -1,0 +1,380 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+@font-face {
+	font-family: "Open Sans Condensed";
+	src: url("../fonts/OpenSansCondensed-Light.woff2") format("woff2");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Open Sans Condensed";
+	src: url("../fonts/OpenSansCondensed-Bold.woff2") format("woff2");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+body {
+	line-height: 1;
+}
+
+/* ------------------ */
+
+body {
+	padding: 50px;
+	font-family: "Open Sans Condensed", sans-serif;
+	font-size: 20px;
+}
+
+/* HEADER */
+
+.header {
+	background-color: rgb(148, 248, 255);
+	padding: 20px;
+}
+
+.logo {
+	margin: 0 0 50px 0;
+}
+
+.menu__list {
+	margin: 0 0 50px 150px;
+	text-align: center;
+}
+
+.menu__list li {
+	margin-bottom: 10px;
+	display: inline;
+	margin: 0 30px;
+}
+
+.menu a {
+	color: black;
+}
+
+.menu a:hover {
+	color: white;
+}
+
+.title,
+.menu a {
+	font-family: "Anton", sans-serif;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+/* MAIN */
+
+.title {
+	text-decoration: underline;
+	margin: 25px 0;
+}
+
+p.subtitle {
+	font-weight: 700;
+}
+
+span {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+/* PADDING */
+
+.padding-box,
+.margin-box {
+	padding: 25px;
+	text-align: center;
+}
+
+.padding-box__inner {
+	padding: 20px 0 0 0;
+}
+
+.padding,
+.padding-top,
+.padding-right,
+.padding-bottom,
+.padding-left {
+	width: 400px;
+	background-color: rgb(148, 248, 255);
+	margin: 20px;
+	display: inline-block;
+}
+
+.padding {
+	padding: 20px;
+}
+
+.padding-top {
+	padding: 20px 0 0 0;
+}
+
+.padding-right {
+	padding: 0 20px 0 0;
+}
+
+.padding-bottom {
+	padding: 0 0 20px 0;
+}
+
+.padding-left {
+	padding: 0 0 0 20px;
+}
+
+/* MARGIN */
+
+.margin-box {
+	text-align: center;
+	background-color: #e8f7ff;
+}
+
+.margin-box__inner {
+	text-align: center;
+	margin: 20px 0;
+}
+
+.margin-inner {
+	width: 400px;
+	background-color: rgb(130, 210, 247);
+	display: inline-block;
+	margin: 20px 0;
+}
+
+.margin,
+.margin-top,
+.margin-right,
+.margin-bottom,
+.margin-left {
+	background-color: rgb(148, 248, 255);
+	margin: 20px;
+}
+
+.margin {
+	margin: 20px;
+}
+
+.margin-top {
+	margin: 20px 0 0 0;
+}
+
+.margin-right {
+	margin: 0 20px 0 0;
+}
+
+.margin-bottom {
+	margin: 0 0 20px 0;
+}
+
+.margin-left {
+	margin: 0 0 0 20px;
+}
+
+/* WIDTH */
+
+.width-box {
+	padding: 20px 0;
+	text-align: center;
+}
+
+.width-box__inner p {
+	padding: 20px 0;
+}
+
+.max-width,
+.min-width {
+	width: 400px;
+	background-color: rgb(148, 248, 255);
+	display: inline-block;
+}
+
+.max-width {
+	max-width: 200px;
+}
+
+.min-width {
+	min-width: 800px;
+	margin: 0 0 20px 0;
+}
+
+/* HEIGHT */
+
+.height-box {
+	padding: 20px 0;
+	text-align: center;
+	background-color: #e8f7ff;
+}
+
+.height-box__inner p {
+	padding: 20px 0;
+}
+
+.max-height,
+.min-height {
+	width: 400px;
+	background-color: rgb(148, 248, 255);
+	display: inline-block;
+}
+
+.max-height {
+	max-height: 400px;
+}
+
+.max-height img {
+	width: 400px;
+}
+
+.min-height {
+	min-height: 400px;
+	margin: 0 0 30px 0;
+}
+
+.min-height img {
+	width: 400px;
+}
+
+/* OVERFLOW */
+
+.overflow-box {
+	padding: 25px;
+	text-align: center;
+}
+
+.overflow-box__inner p {
+	margin: 20px;
+}
+
+.visable,
+.hidden,
+.scroll,
+.auto {
+	height: 200px;
+	background-color: rgb(148, 248, 255);
+	margin: 20px;
+	display: inline-block;
+}
+
+.overflow-inner {
+	background-color: #82d3ff;
+	width: 400px;
+	display: inline-block;
+}
+
+.visable {
+	overflow: visable;
+}
+
+.hidden {
+	overflow: hidden;
+}
+
+.scroll {
+	overflow: scroll;
+}
+
+.auto {
+	overflow: auto;
+}
+
+/* DISPLAY */
+
+.display-box {
+	margin: 25px 0;
+	padding: 25px;
+	text-align: center;
+	background-color: #e8f7ff;
+}
+
+.display-box__inner {
+	padding: 20px 0 0 0;
+}
+
+.block,
+.inline,
+.inline-block,
+.none {
+	height: 200px;
+	background-color: rgb(148, 248, 255);
+	margin: 20px auto;
+}
+
+.block {
+	width: 400px;
+}
+
+.block span {
+	text-transform: none;
+	font-weight: normal;
+}
+
+.inline {
+	height: auto;
+	background-color: transparent;
+}
+
+.inline p {
+	display: inline;
+	background-color: rgb(148, 248, 255);
+	line-height: 20px;
+}
+
+.inline-block {
+	display: inline-block;
+	width: 400px;
+	height: auto;
+	padding: 0 0 20px 0;
+}
+
+.none {
+	width: 400px;
+	height: auto;
+	padding: 0 0 20px 0;
+}
+
+.none img {
+	width: 400px;
+}
+
+.footer {
+	min-height: 100px;
+	background-color: rgb(148, 248, 255);
+}
